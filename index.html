@@ -42,7 +42,7 @@ section{padding:80px 0}
 header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
 .logo{display:flex;align-items:center;gap:12px;text-decoration:none}
-.logo svg{height:40px;width:auto;display:block}
+.logo .word{font-family:"Inter Tight","Arial Black",sans-serif;font-weight:800;font-size:2.15rem;letter-spacing:.02em;line-height:1;color:var(--ink);padding-bottom:4px;border-bottom:3px solid var(--red);display:block}
 .logo .tag{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);font-weight:700;white-space:nowrap;line-height:1.2}
 .logo .tag b{display:block;color:var(--ink);letter-spacing:.06em;font-size:.72rem}
 nav.menu{display:flex;gap:24px;font-weight:600;font-size:.93rem}
@@ -129,7 +129,7 @@ footer b{color:#fff}
 <header>
   <div class="wrap nav">
     <a class="logo" href="https://alar.pl/pl/start.aspx" aria-label="ALAR">
-      <svg viewBox="0 0 168 44" xmlns="http://www.w3.org/2000/svg"><path d="M6 40 22 4h11l16 36h-9l-3.4-8H18.6L15 40H6zm15.4-15h9.2L26 13.4 21.4 25z" fill="#12151A"/><path d="M60 4h9v28h17v8H60V4z" fill="#12151A"/><path d="M92 40 108 4h11l16 36h-9l-3.4-8h-15.2L104 40h-12zm15.4-15h9.2L112 13.4 107.4 25z" fill="#12151A"/><path d="M140 4h16c8 0 13 4.6 13 11.6 0 5-2.6 8.6-7 10.2L171 40h-10l-7.6-12.6H149V40h-9V4zm9 7.6v8.6h6.4c3.4 0 5.4-1.6 5.4-4.3s-2-4.3-5.4-4.3H149z" fill="#12151A"/><path d="M0 43h168" stroke="#D7261E" stroke-width="3"/></svg>
+      <span class="word">ALAR</span>
       <span class="tag"><b>Andrzej Rogalski</b>Białystok · od 30 lat</span>
     </a>
     <nav class="menu">

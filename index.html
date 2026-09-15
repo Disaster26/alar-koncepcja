@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ALAR Białystok – alarmy, monitoring, kontrola dostępu, elektronika i zabezpieczenia do aut | ul. Ciołkowskiego 24</title>
+<meta name="description" content="ALAR Andrzej Rogalski, Białystok, ul. Ciołkowskiego 24. Od 30 lat: systemy alarmowe, kamery, kontrola dostępu, automatyka bram, smart home oraz alarmy, GPS, car audio, oklejanie i przyciemnianie szyb w samochodach. Tel. (85) 740 35 35.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#F4F5F7; --bg2:#E9ECF0; --ink:#12151A; --ink2:#3B424C; --mute:#6B7480; --line:#D9DEE5;
+  --red:#D7261E; --red-2:#B71E17; --white:#fff; --dark:#0F1216; --dark2:#171B21; --on-dark:#EDF0F4; --on-dark2:#AEB6C2; --max:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Manrope",system-ui,Segoe UI,Arial,sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Inter Tight","Manrope",sans-serif;font-weight:700;line-height:1.06;margin:0;letter-spacing:-.02em;text-wrap:balance}
+h1{font-size:clamp(2.4rem,5.6vw,4.2rem);font-weight:800}
+h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+h3{font-size:1.2rem}
+p{margin:0}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
+section{padding:80px 0}
+.eyebrow{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:800;margin-bottom:12px}
+.lead{font-size:1.12rem;color:var(--ink2);max-width:62ch}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:10px;font-weight:700;text-decoration:none;border:1.5px solid transparent;transition:.2s;white-space:nowrap;font-family:"Inter Tight",sans-serif;font-size:1.02rem}
+.btn-red{background:var(--red);color:#fff}.btn-red:hover{background:var(--red-2)}
+.btn-ghost{border-color:rgba(255,255,255,.5);color:#fff}.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn-dark{background:var(--ink);color:#fff}.btn-dark:hover{background:#2a313a}
+.btn svg{width:18px;height:18px}
+.draft{background:#3A2E05;color:#F6E6B4;font-size:.85rem;padding:10px 22px;text-align:center}
+.draft b{color:#FFE28A}
+
+/* header */
+.topbar{background:var(--dark);color:var(--on-dark2);font-size:.86rem}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;height:36px;align-items:center}
+.topbar a{text-decoration:none;color:var(--on-dark)}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo .word{font-family:"Inter Tight",sans-serif;font-weight:800;font-size:1.9rem;letter-spacing:-.04em;color:var(--ink)}
+.logo .word span{color:var(--red)}
+.logo small{display:block;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);font-weight:700;margin-top:-4px}
+nav.menu{display:flex;gap:24px;font-weight:600;font-size:.93rem}
+nav.menu a{text-decoration:none;color:var(--ink2)}
+nav.menu a:hover{color:var(--red)}
+@media(max-width:960px){nav.menu{display:none}}
+.nav .btn{padding:10px 16px;font-size:.92rem}
+
+/* hero */
+.hero{background:var(--dark);color:#fff;padding:72px 0 0;overflow:hidden}
+.hero .grid-h{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+@media(max-width:900px){.hero .grid-h{grid-template-columns:1fr}}
+.hero .lead{color:var(--on-dark2);margin-top:20px}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.hero .facts{display:flex;flex-wrap:wrap;gap:22px 34px;margin-top:38px;padding-top:24px;border-top:1px solid rgba(255,255,255,.15);color:var(--on-dark2);font-size:.92rem}
+.hero .facts b{display:block;color:#fff;font-family:"Inter Tight";font-size:1.5rem;font-weight:800}
+.mosaic{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding-bottom:72px}
+.mosaic img{border-radius:12px;aspect-ratio:600/270;object-fit:cover;width:100%;border:1px solid rgba(255,255,255,.08)}
+.mosaic img:first-child{grid-column:1/-1;aspect-ratio:600/230}
+
+/* paths */
+.paths{margin-top:-52px;position:relative;z-index:2;padding:0}
+.paths .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:900px){.paths .grid{grid-template-columns:1fr}}
+.path{background:var(--white);border-radius:16px;padding:26px;border:1px solid var(--line);box-shadow:0 20px 40px -30px rgba(0,0,0,.35);text-decoration:none;display:block;transition:.2s}
+.path:hover{transform:translateY(-3px)}
+.path .k{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--red);font-weight:800}
+.path h3{margin-top:8px;font-size:1.45rem}
+.path p{color:var(--ink2);margin-top:8px;font-size:.95rem}
+.path .go{margin-top:16px;font-weight:700;color:var(--red)}
+
+/* offer lists */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+@media(max-width:900px){.cols{grid-template-columns:1fr}}
+.list{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;margin-top:22px}
+@media(max-width:560px){.list{grid-template-columns:1fr}}
+.list a{display:flex;align-items:center;gap:10px;padding:11px 14px;background:var(--white);border:1px solid var(--line);border-radius:10px;text-decoration:none;font-weight:600;font-size:.94rem;color:var(--ink2);transition:.15s}
+.list a:hover{border-color:var(--red);color:var(--ink)}
+.list a:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--red);flex:none}
+
+/* promos */
+.promos{background:var(--dark2);color:#fff}
+.promos .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:800px){.promos .grid{grid-template-columns:1fr}}
+.promo{border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:28px;background:linear-gradient(135deg,rgba(215,38,30,.18),transparent 60%)}
+.promo .k{color:#FFB3AE;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800}
+.promo h3{margin-top:8px;font-size:1.5rem}
+.promo p{color:var(--on-dark2);margin-top:8px}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:38px}
+@media(max-width:900px){.tiles{grid-template-columns:1fr 1fr}}
+.tiles img{border-radius:12px;width:100%;aspect-ratio:1/1;object-fit:cover;border:1px solid rgba(255,255,255,.1)}
+
+/* about + contact */
+.about{background:var(--bg2)}
+.contact{display:grid;grid-template-columns:1fr 1.1fr;gap:26px;align-items:stretch}
+@media(max-width:900px){.contact{grid-template-columns:1fr}}
+.card{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:30px}
+.lines{display:grid;gap:10px;margin-top:16px}
+.lines a,.lines div{display:flex;gap:12px;align-items:flex-start;text-decoration:none;font-weight:600}
+.lines svg{width:20px;height:20px;color:var(--red);flex:none;margin-top:3px}
+.hours{width:100%;border-collapse:collapse;margin-top:14px}
+.hours td{padding:8px 0;border-bottom:1px solid var(--line)}
+.hours td:last-child{text-align:right;font-weight:700}
+.note{font-size:.85rem;color:var(--mute);margin-top:10px}
+.map{border-radius:16px;overflow:hidden;border:1px solid var(--line);min-height:360px}
+.map iframe{width:100%;height:100%;min-height:360px;border:0;display:block}
+footer{background:var(--dark);color:var(--on-dark2);padding:40px 0;font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px}
+footer b{color:#fff}
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:none;gap:10px;padding:10px 14px;background:rgba(15,18,22,.96)}
+.callbar .btn{flex:1;justify-content:center;padding:13px 10px;font-size:.95rem}
+@media(max-width:960px){.callbar{display:flex}body{padding-bottom:70px}}
+</style>
+</head>
+<body>
+
+<div class="draft">WERSJA ROBOCZA · koncepcja odświeżonej strony <b>ALAR</b> przygotowana przez Łukasza Stasiaka · treści, adresy podstron i zdjęcia pochodzą z obecnej strony alar.pl · logo firmowe do podmiany · nic nie jest opublikowane</div>
+
+<div class="topbar"><div class="wrap">
+  <div>Białystok, ul. Ciołkowskiego 24 · Pn–Pt 8:00–16:00 · Sb 9:00–13:00</div>
+  <div><a href="tel:+48857403535">(85) 740 35 35</a> · <a href="mailto:biuro@alar.pl">biuro@alar.pl</a></div>
+</div></div>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="https://alar.pl/pl/start.aspx"><span><span class="word">AL<span>A</span>R</span><small>Andrzej Rogalski · od 1991</small></span></a>
+    <nav class="menu">
+      <a href="https://alar.pl/pl/start.aspx">Strona startowa</a>
+      <a href="#doauta">Do auta</a>
+      <a href="#dofirmy">Do firmy i domu</a>
+      <a href="https://alar.pl/pl/nasze_realizacje.aspx">Nasze realizacje</a>
+      <a href="https://alar.pl/pl/ekspert_radzi.aspx">Ekspert radzi</a>
+      <a href="https://alar.pl/pl/nowosci1.aspx">Nowości</a>
+      <a href="https://alar.pl/pl/alarsklep.aspx">AlarSklep</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn-red" href="tel:+48857403535"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.7a2 2 0 0 1 1.7 2z"/></svg>(85) 740 35 35</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap grid-h">
+    <div>
+      <div class="eyebrow" style="color:#FFB3AE">Jedna z najstarszych firm w Białymstoku</div>
+      <h1>Od 30 lat montujemy systemy teletechniczne w domach, firmach, instytucjach i w samochodach.</h1>
+      <p class="lead">Alarmy, kamery, kontrola dostępu, rejestracja czasu pracy, systemy przeciwpożarowe, automatyka bram i garaży, instalacje internetowe, TV/SAT, smart home. W aucie: rejestratory jazdy, kamery cofania, radia Android, czujniki parkowania, oświetlenie LED, nawigacje GPS, dostosowanie aut z USA.</p>
+      <div class="cta">
+        <a class="btn btn-red" href="#doauta">Do auta</a>
+        <a class="btn btn-ghost" href="#dofirmy">Do firmy i domu</a>
+        <a class="btn btn-ghost" href="https://alar.pl/pl/alarsklep.aspx">AlarSklep</a>
+      </div>
+      <div class="facts">
+        <div><b>30 lat</b>doświadczenia w Białymstoku</div>
+        <div><b>2 działy</b>elektronika do aut · zabezpieczenia budynków</div>
+        <div><b>Montaż</b>na miejscu, u klienta i w aucie</div>
+      </div>
+    </div>
+    <div class="mosaic">
+      <img src="img/Samochod_wka_zabezpieczenia_600_270.jpg" alt="Zabezpieczenia samochodowe">
+      <img src="img/Zabezpieczenia_budynk_w_ciemny_600_270.jpg" alt="Zabezpieczenia budynków">
+      <img src="img/Smart_Home_600_270.jpg" alt="Smart Home">
+      <img src="img/Przer__w_i_oklejanie_2_600_270.jpg" alt="Przeróbka świateł i oklejanie">
+      <img src="img/Kontrola_dost_pu_600_270.jpg" alt="Kontrola dostępu">
+    </div>
+  </div>
+</section>
+
+<section class="paths"><div class="wrap grid">
+  <a class="path" href="https://alar.pl/pl/doauta.aspx"><div class="k">Dział 1</div><h3>Do auta</h3><p>Alarmy i immobilisery, GPS, car audio, kamery, czujniki, xenony, oklejanie i przyciemnianie szyb, dostosowanie aut z USA.</p><div class="go">Zobacz ofertę →</div></a>
+  <a class="path" href="https://alar.pl/pl/oferta_dom_firma.aspx"><div class="k">Dział 2</div><h3>Do firmy i domu</h3><p>Systemy alarmowe, telewizja przemysłowa, kontrola dostępu, wideodomofony, automatyka bram, inteligentny dom, p.poż.</p><div class="go">Zobacz ofertę →</div></a>
+  <a class="path" href="https://alar.pl/pl/alarsklep.aspx"><div class="k">Sklep i e-Toll</div><h3>AlarSklep</h3><p>Urządzenia do samodzielnego montażu i akcesoria. Obsługa e-Toll — urządzenia i rejestracja.</p><div class="go">Przejdź do sklepu →</div></a>
+</div></section>
+
+<section id="doauta">
+  <div class="wrap cols">
+    <div>
+      <div class="eyebrow">Do auta</div>
+      <h2>Elektronika i zabezpieczenia samochodowe</h2>
+      <p class="lead" style="margin-top:14px">Montaż w naszym serwisie przy Ciołkowskiego 24. Przy zakupie radia — montaż ISO gratis.</p>
+      <div class="list">
+        <a href="https://alar.pl/pl/alarmy1.aspx">Alarmy i immobilisery</a>
+        <a href="https://alar.pl/pl/monitoring_gps_bialystok.aspx">Monitoring GPS</a>
+        <a href="https://alar.pl/pl/gps_bez_umowy.aspx">GPS bez umowy</a>
+        <a href="https://alar.pl/pl/car_audio_dvd.aspx">Car audio / DVD</a>
+        <a href="https://alar.pl/pl/stacje_multimedialne.aspx">Stacje multimedialne</a>
+        <a href="https://alar.pl/pl/rejestrator_jazdy.aspx">Rejestratory jazdy</a>
+        <a href="https://alar.pl/pl/czujniki_parkowania.aspx">Czujniki parkowania</a>
+        <a href="https://alar.pl/pl/czujniki_martwej_strefy_.aspx">Czujniki martwej strefy</a>
+        <a href="https://alar.pl/pl/kamera_do_aut_z_angli.aspx">Kamera do anglika</a>
+        <a href="https://alar.pl/pl/przerobka_swiatel.aspx">Przeróbka świateł USA</a>
+        <a href="https://alar.pl/pl/xenony.aspx">Xenony</a>
+        <a href="https://alar.pl/pl/swiatla_do_jazdy_dziennej.aspx">Światła do jazdy dziennej</a>
+        <a href="https://alar.pl/pl/oklejanie_samochodow.aspx">Oklejanie samochodów</a>
+        <a href="https://alar.pl/pl/przyciemnianie_szyb.aspx">Przyciemnianie szyb</a>
+        <a href="https://alar.pl/pl/ochrona_lakieru.aspx">Ochrona lakieru</a>
+        <a href="https://alar.pl/pl/haki_i_modu%C5%82y.aspx">Haki i moduły</a>
+        <a href="https://alar.pl/pl/elektryczne_szyby.aspx">Elektryczne szyby</a>
+        <a href="https://alar.pl/pl/podgrzewane_fotele.aspx">Podgrzewane fotele</a>
+        <a href="https://alar.pl/pl/centralne_zamki1.aspx">Centralne zamki</a>
+        <a href="https://alar.pl/pl/cb__radia.aspx">CB radia</a>
+        <a href="https://alar.pl/pl/antyradary.aspx">Antyradary</a>
+        <a href="https://alar.pl/pl/nawigacje_gps.aspx">Nawigacje GPS</a>
+        <a href="https://alar.pl/pl/yanosik.aspx">Yanosik</a>
+        <a href="https://alar.pl/pl/naprawy_instalacji.aspx">Naprawy instalacji</a>
+      </div>
+    </div>
+    <div id="dofirmy">
+      <div class="eyebrow">Do firmy i domu</div>
+      <h2>Zabezpieczenia i instalacje w budynkach</h2>
+      <p class="lead" style="margin-top:14px">Projekt, montaż i serwis — dla domów, firm i instytucji państwowych.</p>
+      <div class="list">
+        <a href="https://alar.pl/pl/alarmy.aspx">Systemy alarmowe</a>
+        <a href="https://alar.pl/pl/telewizja_przemyslowa.aspx">Telewizja przemysłowa</a>
+        <a href="https://alar.pl/pl/kontrola_dostepu.aspx">Kontrola dostępu</a>
+        <a href="https://alar.pl/pl/wideodomofony.aspx">Wideodomofony</a>
+        <a href="https://alar.pl/pl/apartament.aspx">Apartament / domofon</a>
+        <a href="https://alar.pl/pl/automatyka_wjazdowa_bram_i_garazy_bialystok.aspx">Automatyka bram i garaży</a>
+        <a href="https://alar.pl/pl/inteligentny_dom.aspx">Inteligentny dom</a>
+        <a href="https://alar.pl/pl/systemy_p.poz..aspx">Ochrona przeciwpożarowa</a>
+        <a href="https://alar.pl/pl/kamery_termowizyjne.aspx">Kamery termowizyjne</a>
+        <a href="https://alar.pl/pl/instalacje_elektryczne.aspx">Instalacje elektryczne</a>
+        <a href="https://alar.pl/pl/instalacje_tv_sat.aspx">Instalacje TV SAT</a>
+        <a href="https://alar.pl/pl/telewizja_naziemna_dvb-t2_HEVC.aspx">Telewizja DVB-T2 HEVC</a>
+        <a href="https://alar.pl/pl/centrale_telefoniczne.aspx">Centrale telefoniczne</a>
+        <a href="https://alar.pl/pl/folie_przeciwsloneczne_i_antywlamaniowe.aspx">Folie okienne</a>
+        <a href="https://alar.pl/pl/repetery_gsm.aspx">Repetery GSM</a>
+        <a href="https://alar.pl/pl/radiotelefony.aspx">Radiotelefony</a>
+        <a href="https://alar.pl/pl/lokalizatory_notione.aspx">Lokalizatory NotiOne</a>
+        <a href="https://alar.pl/pl/niewidzialne_glosniki.aspx">Niewidzialne głośniki</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="promos">
+  <div class="wrap">
+    <div class="eyebrow" style="color:#FFB3AE">Aktualne promocje</div>
+    <div class="grid">
+      <div class="promo"><div class="k">Car audio</div><h3>Przy zakupie radia montaż ISO gratis</h3><p>Radia Android i stacje multimedialne z montażem w naszym serwisie.</p></div>
+      <div class="promo"><div class="k">Oklejanie</div><h3>Oklejenie całego auta — przyciemnianie szyb gratis</h3><p>Zmiana koloru auta folią, ochrona lakieru, folie przyciemniające.</p></div>
+    </div>
+    <div class="tiles">
+      <img src="img/alar_box_viofo.jpg" alt="Rejestratory jazdy">
+      <img src="img/alar_box_tvw_20aucie.jpg" alt="Telewizja w aucie">
+      <img src="img/alar_box_folie.jpg" alt="Folie">
+      <img src="img/alar_box_Pomiar_20temperatury.jpg" alt="Pomiar temperatury">
+    </div>
+  </div>
+</section>
+
+<section class="about" id="kontakt">
+  <div class="wrap">
+    <div class="eyebrow">Kontakt</div>
+    <h2>Zapraszamy do siedziby przy ul. Ciołkowskiego 24</h2>
+    <div class="contact" style="margin-top:34px">
+      <div class="card">
+        <h3>ALAR Andrzej Rogalski</h3>
+        <div class="lines">
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>ul. Ciołkowskiego 24, 15-545 Białystok</span></div>
+          <a href="tel:+48857403535"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.7a2 2 0 0 1 1.7 2z"/></svg><span>(85) 740 35 35 · tel/fax (85) 740 35 36</span></a>
+          <a href="tel:+48690025023"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><span>kom. 690 025 023 (nie obsługujemy SMS, MMS, WhatsApp)</span></a>
+          <a href="mailto:biuro@alar.pl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 6-10 7L2 6"/></svg><span>biuro@alar.pl</span></a>
+        </div>
+        <table class="hours">
+          <tr><td>Poniedziałek – Piątek</td><td>8:00 – 16:00</td></tr>
+          <tr><td>Sobota</td><td>9:00 – 13:00</td></tr>
+        </table>
+        <div style="margin-top:22px;display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn btn-red" href="tel:+48857403535">Zadzwoń</a>
+          <a class="btn btn-dark" href="https://maps.google.com/maps?daddr=Cio%C5%82kowskiego+24,+Bia%C5%82ystok" target="_blank" rel="noopener">Nawiguj</a>
+        </div>
+      </div>
+      <div class="map"><iframe title="Mapa dojazdu" loading="lazy" src="https://www.google.com/maps?q=Cio%C5%82kowskiego+24,+15-545+Bia%C5%82ystok&z=16&output=embed"></iframe></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div><b>ALAR Andrzej Rogalski</b> · ul. Ciołkowskiego 24, 15-545 Białystok · NIP 542-102-37-39</div>
+    <div><a href="https://alar.pl/pl/start.aspx">Strona startowa</a> · <a href="https://alar.pl/pl/alarsklep.aspx">Zakupy</a> · <a href="https://alar.pl/pl/e-toll.aspx">e-Toll</a> · <a href="https://alar.pl/pl/kontakt.aspx">Kontakt</a></div>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn-red" href="tel:+48857403535">Zadzwoń (85) 740 35 35</a>
+  <a class="btn btn-ghost" href="#doauta">Oferta</a>
+</div>
+
+</body>
+</html>
